@@ -1,291 +1,209 @@
 <!DOCTYPE html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MODEX 2026 Targets</title>
+<title>MODEX 2026 - Booth Targets</title>
 <style>
-body { font-family: -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #1a1a2e; color: #e0e0e0; line-height: 1.6; }
-h1 { color: #00d4ff; border-bottom: 2px solid #00d4ff; padding-bottom: 10px; }
-h2 { color: #ff6b6b; margin-top: 40px; }
-h3 { color: #ffd93d; }
-table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: 13px; }
-th { background: #16213e; color: #00d4ff; padding: 10px; text-align: left; border: 1px solid #333; }
-td { padding: 8px 10px; border: 1px solid #333; }
-tr:hover { background: #16213e; }
-strong { color: #ffd93d; }
-em { color: #a8e6cf; font-style: italic; }
-hr { border-color: #333; margin: 30px 0; }
-code { background: #16213e; padding: 2px 6px; border-radius: 3px; color: #00d4ff; }
-li { margin: 4px 0; }
-p { margin: 8px 0; }
-</style></head><body><h1>MODEX 2026 - AI Consulting Sales Target List</h1>
-<p><strong>Date:</strong> April 14, 2026 | <strong>Show runs through:</strong> April 16, 2026</p>
-<p><strong>Your pitch:</strong> Software consulting - AI layer integrations for hardware companies</p>
-<p><strong>Companies researched:</strong> 31 | <strong>Strong targets identified:</strong> 22</p>
+*{box-sizing:border-box}
+body{font-family:-apple-system,system-ui,sans-serif;max-width:800px;margin:0 auto;padding:12px;background:#111;color:#e0e0e0;line-height:1.5;font-size:15px}
+h1{color:#00d4ff;font-size:22px;border-bottom:2px solid #00d4ff;padding-bottom:8px;margin-top:0}
+h2{color:#ff6b6b;font-size:18px;margin-top:32px;border-bottom:1px solid #333;padding-bottom:6px}
+h3{color:#ffd93d;font-size:16px;margin-bottom:4px}
+.tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;margin-left:8px}
+.high{background:#2d5a27;color:#7fff7f}
+.med{background:#5a4a27;color:#ffd93d}
+.company{background:#1a1a2e;border:1px solid #333;border-radius:8px;padding:12px;margin:12px 0}
+.company h3{margin-top:0}
+.booth{color:#00d4ff;font-weight:700}
+.sw{color:#a8e6cf;font-style:italic}
+.gap{margin:6px 0;padding:6px 10px;background:#16213e;border-left:3px solid #ff6b6b;border-radius:0 4px 4px 0;font-size:14px}
+.opener{margin:6px 0;padding:6px 10px;background:#1a2e1a;border-left:3px solid #7fff7f;border-radius:0 4px 4px 0;font-size:14px}
+.meta{color:#888;font-size:13px;margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:16px 0}
+th{background:#16213e;color:#00d4ff;padding:8px 6px;text-align:left;border:1px solid #333}
+td{padding:6px;border:1px solid #222}
+tr:nth-child(even){background:#1a1a1a}
+.pattern{background:#1a1a2e;border:1px solid #333;border-radius:8px;padding:10px;margin:8px 0}
+.pattern strong{color:#00d4ff}
+hr{border-color:#333;margin:24px 0}
+</style></head><body>
+
+<h1>MODEX 2026 Booth Targets</h1>
+<p style="color:#888">Hardware companies with basic software - verified AI gaps<br>
+April 14-16, 2026 | Atlanta | <strong style="color:#ffd93d">15 targets</strong></p>
+
+<h2>TIER 1 - Hit Today</h2>
+
+<div class="company">
+<h3>1. RAVAS USA <span class="tag high">HIGH</span></h3>
+<p class="meta">Forklift-mounted weighing | ~200 emp | $10-50M</p>
+<p><span class="sw">Their software: Integration SW, Data Collector, Indicator App</span></p>
+<div class="gap"><strong>Gap:</strong> No CV - camera on mast could read pallet labels + auto-associate with weight</div>
+<div class="gap"><strong>Gap:</strong> No predictive analytics on weight anomalies</div>
+<div class="gap"><strong>Gap:</strong> No load geometry / center-of-gravity analysis</div>
+<div class="opener"><strong>Say:</strong> "Your Weigh in Motion captures incredible data, but it still needs manual SKU association. What if the forklift could SEE what it's weighing?"</div>
+</div>
+
+<div class="company">
+<h3>2. Big Joe Forklifts <span class="booth">B9313</span> <span class="tag high">HIGH</span></h3>
+<p class="meta">Electric forklifts | ~100 emp | $20-57M | PE-backed</p>
+<p><span class="sw">Their software: Pulse - telematics dashboards (launched THIS WEEK)</span></p>
+<div class="gap"><strong>Gap:</strong> Pulse = dashboards only, no ML predictive maintenance</div>
+<div class="gap"><strong>Gap:</strong> No vision-based safety (Toyota/Crown have it)</div>
+<div class="opener"><strong>Say:</strong> "Pulse is a strong foundation -- what would predictive analytics on top do for your dealers' service revenue?"</div>
+</div>
+
+<div class="company">
+<h3>3. Lantech <span class="tag high">HIGH</span></h3>
+<p class="meta">Invented stretch wrapping | ~600 emp | $243M</p>
+<p><span class="sw">Their software: LINC IoT platform - PLC data to cloud. "Predictive" = just dashboards.</span></p>
+<div class="gap"><strong>Gap:</strong> LINC has zero ML despite "predictive" marketing</div>
+<div class="gap"><strong>Gap:</strong> No AI wrap optimization based on load geometry</div>
+<div class="gap"><strong>Gap:</strong> No CV post-wrap quality inspection</div>
+<div class="opener"><strong>Say:</strong> "LINC is collecting great data -- have you started building ML models on that telemetry?"</div>
+</div>
+
+<div class="company">
+<h3>4. Robopac USA <span class="tag high">HIGH</span></h3>
+<p class="meta">Wrapping machines | Parent: Aetna Group (500M+ EUR, 2K emp)</p>
+<p><span class="sw">Their software: R-Connect IoT - cloud monitoring, remote troubleshooting</span></p>
+<div class="gap"><strong>Gap:</strong> R-Connect = dashboards, no ML</div>
+<div class="gap"><strong>Gap:</strong> No adaptive film optimization via CV</div>
+<div class="opener"><strong>Say:</strong> "R-Connect gives you the pipeline -- what if it could predict which machine fails next Tuesday?"</div>
+<p class="meta" style="color:#ffd93d">Lantech vs Robopac: direct rivals, same tech stage. First to get AI wins.</p>
+</div>
+
+<div class="company">
+<h3>5. Combilift <span class="tag high">HIGH</span></h3>
+<p class="meta">Multi-directional forklifts | ~800-1K emp | $200-250M | Irish</p>
+<p><span class="sw">Their software: Combi Connect telematics + AGT uses LiDAR SLAM</span></p>
+<p class="meta" style="color:#ff6b6b">Threat: Hyster-Yale launched AI navigation Jan 2026</p>
+<div class="gap"><strong>Gap:</strong> AGT = SLAM only, no adaptive AI navigation</div>
+<div class="gap"><strong>Gap:</strong> Combi Connect = rule-based thresholds, not ML</div>
+<div class="opener"><strong>Say:</strong> "With Hyster-Yale pushing AI navigation, how is Combilift thinking about the AI layer for AGT?"</div>
+</div>
+
+<div class="company">
+<h3>6. FreightSnap <span class="tag high">HIGH</span></h3>
+<p class="meta">Freight dimensioning | ~22 emp | VC-backed</p>
+<p><span class="sw">Their software: DMS cloud analytics. Captures photos of every shipment.</span></p>
+<p class="meta" style="color:#ff6b6b">Threat: BeeVision marketing "AI-powered dimensioning"</p>
+<div class="gap"><strong>Gap:</strong> Photos captured but unused for damage detection</div>
+<div class="gap"><strong>Gap:</strong> No freight classification or OCR from images</div>
+<div class="opener"><strong>Say:</strong> "BeeVision is marketing AI dimensioning. How are you adding intelligence to your IR sensor data?"</div>
+</div>
+
+<div class="company">
+<h3>7. Cubiscan <span class="tag high">HIGH</span></h3>
+<p class="meta">Parcel dimensioning pioneer (1987) | ~70 emp | Schneider Electric</p>
+<p><span class="sw">Their software: PC-based measurement, FTP data transfer, basic WMS integration</span></p>
+<p class="meta" style="color:#ff6b6b">Threat: BeeVision markets "transition FROM Cubiscan"</p>
+<div class="gap"><strong>Gap:</strong> No AI shape measurement, no auto product ID, no predictive analytics</div>
+<div class="opener"><strong>Say:</strong> "BeeVision is actively marketing as a Cubiscan replacement. We add AI layers to keep you ahead."</div>
+</div>
+
+<div class="company">
+<h3>8. Hytrol <span class="tag high">HIGH</span></h3>
+<p class="meta">Major conveyors | ~1,600 emp | $390M</p>
+<p><span class="sw">Their software: EZLogic zone controller - real-time monitoring, jam elimination</span></p>
+<div class="gap"><strong>Gap:</strong> No ML predictive maintenance, no cloud platform, no AI sortation</div>
+<div class="opener"><strong>Say:</strong> "EZLogic gives great visibility -- have you explored using that data for predictive failure detection?"</div>
+<p class="meta">Large company - lead with ROI (warranty costs, new SaaS revenue)</p>
+</div>
+
+<h2>TIER 2 - Tomorrow</h2>
+
+<div class="company">
+<h3>9. Modula <span class="booth">B15713</span> <span class="tag high">HIGH</span></h3>
+<p class="meta">Vertical Lift Modules | Italian, ~1,500 emp | $182M</p>
+<p><span class="sw">Their software: "AI Services" (algorithmic optimizer), Web Analytics IoT</span></p>
+<p class="meta" style="color:#ff6b6b">Threat: Kardex + Berkshire Grey AI picking partnership</p>
+<div class="gap"><strong>Gap:</strong> "AI Services" = algorithms, not ML. No dynamic slotting, no CV verification.</div>
+<div class="opener"><strong>Say:</strong> "Kardex went deep with Berkshire Grey. How is Modula closing that gap?"</div>
+</div>
+
+<div class="company">
+<h3>10. suitX / Ottobock <span class="tag high">HIGH</span></h3>
+<p class="meta">Exoskeletons | Ottobock parent ~9B EUR | 2K+ customers</p>
+<p><span class="sw">Their software: Volton XP Companion app, on-device motion detection</span></p>
+<p class="meta" style="color:#ff6b6b">Threat: German Bionic Exia = "augmented AI"</p>
+<div class="gap"><strong>Gap:</strong> App is individual-only, no fleet-wide analytics. No injury prediction.</div>
+<div class="opener"><strong>Say:</strong> "German Bionic markets 'augmented AI.' How are you staying ahead on intelligence?"</div>
+</div>
+
+<div class="company">
+<h3>11. SATO America <span class="tag high">HIGH</span></h3>
+<p class="meta">Barcode printers, RFID | Japanese parent ~$1B, 5K emp</p>
+<p><span class="sw">Their software: SOS platform - cloud printer monitoring, alerts, consumable tracking</span></p>
+<div class="gap"><strong>Gap:</strong> SOS = rule-based triggers, no ML predictive maintenance or smart forecasting</div>
+<div class="opener"><strong>Say:</strong> "SOS tells you what happened -- what if it told you what's ABOUT to happen?"</div>
+</div>
+
+<div class="company">
+<h3>12. PowerFleet <span class="booth">A1514</span> <span class="tag high">HIGH</span></h3>
+<p class="meta">Fleet IoT | NASDAQ: AIOT | $440M | Public</p>
+<p><span class="sw">Their software: Unity platform - 600+ data sources. VisionAI video. Dashboards.</span></p>
+<div class="gap"><strong>Gap:</strong> "AIoT" = marketing. Mostly rule-based. Investor pressure to prove real AI.</div>
+<div class="opener"><strong>Say:</strong> "Unity ingests 600+ sources -- what % drives automated decisions vs sitting in dashboards?"</div>
+</div>
+
+<div class="company">
+<h3>13. ProGlove <span class="booth">A1831</span> <span class="tag med">MED-HIGH</span></h3>
+<p class="meta">Smart barcode gloves | ~190 emp | $49M funded | MHI Award nominee</p>
+<p><span class="sw">Their software: Insight Enhance, ActivityAI, MAI voice assistant</span></p>
+<div class="gap"><strong>Gap:</strong> ActivityAI = descriptive only. No predictive workflow or fatigue detection.</div>
+<div class="opener"><strong>Say:</strong> "ActivityAI tells what happened. We build the layer that says what's ABOUT to happen."</div>
+</div>
+
+<div class="company">
+<h3>14. Rite-Hite <span class="tag med">MEDIUM</span></h3>
+<p class="meta">Dock equipment | ~2,500 emp | ~$600M | Family-owned</p>
+<p><span class="sw">Their software: Rite-Hite ONE cloud, Dok-Commander Pro sensors, "AI-ready" cameras</span></p>
+<div class="gap"><strong>Gap:</strong> Cameras = "AI-ready" but no AI deployed. No ML. No CV safety.</div>
+<div class="opener"><strong>Say:</strong> "Your cameras are 'AI-ready.' What's the roadmap for real-time safety interventions?"</div>
+</div>
+
+<div class="company">
+<h3>15. Yard Mgmt Solutions <span class="booth">C15164</span> <span class="tag high">HIGH</span></h3>
+<p class="meta">Yard management | ~28 emp | Bootstrapped | YOU SPOKE TO THEM</p>
+<p><span class="sw">Their software: Eagle Vision OCR, YardIQ (gen-AI analytics), Autopilot</span></p>
+<p class="meta" style="color:#ff6b6b">Threat: Kaleris announced AI gate automation AT THIS SHOW</p>
+<div class="gap"><strong>Gap:</strong> Eagle Vision = basic OCR, not deep-learning CV. Can't read hazmat placards or estimate weight.</div>
+<div class="opener"><strong>Say:</strong> "Did you see what Kaleris announced down the hall? We can help you get there faster."</div>
+<p class="meta">Target: Colin Mansfield (VP). May prefer revenue-share model.</p>
+</div>
+
 <hr>
-<h2>TIER 1 - GO TODAY (Highest conversion probability)</h2>
-<p>These companies have: rich data/hardware platform + zero or minimal AI + competitive pressure + realistic budget for outside consulting. Sorted by fit with your pitch.</p>
+
+<h2>Playbook</h2>
+
+<div class="pattern"><strong>"Your competitor just announced X at this show"</strong><br>Kaleris vs YMS | BeeVision vs Cubiscan/FreightSnap | Kardex vs Modula | Hyster-Yale vs Combilift | German Bionic vs suitX</div>
+
+<div class="pattern"><strong>"You have the data pipeline, we add intelligence"</strong><br>RAVAS | Lantech (LINC) | Robopac (R-Connect) | Big Joe (Pulse) | SATO (SOS) | PowerFleet (Unity)</div>
+
+<div class="pattern"><strong>"Your dashboards say predictive but they're not"</strong><br>Lantech | Combilift | Rite-Hite | Big Joe | Hytrol</div>
+
+<div class="pattern"><strong>"We help you compete against 10x bigger companies"</strong><br>Big Joe vs Toyota/Crown | FreightSnap vs BeeVision | Cubiscan vs BeeVision</div>
+
 <hr>
-<h3>1. RAVAS USA, LLC</h3>
-<p><strong>What:</strong> Global leader in forklift-mounted weighing systems (iForks, iCP, iJack)</p>
-<p><strong>Size:</strong> ~200 employees | Netherlands HQ | $10-50M revenue</p>
-<p><strong>Why #1:</strong> CLOSEST match to your truck-weight-recognition pitch. Same technical problem. They capture weight/volume data from every forklift movement but do nothing intelligent with it. Tagline is "Creating Intelligence" but they have ZERO AI - purely load cells + basic integration software. Their "Weigh in Motion" tech weighs loads while forklifts move but requires manual SKU association.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Computer vision: camera on mast to read pallet labels + auto-associate with weight data</li>
-<li>Predictive analytics: weight anomaly detection for overloads, mispicks, theft</li>
-<li>Load geometry analysis: visual center-of-gravity risk assessment for operator safety</li>
-<p><strong>Openers:</strong></p>
-<li>"Your Weigh in Motion tech captures incredible data, but I noticed it still depends on manual SKU association. What if the forklift could <em>see</em> what it's weighing?"</li>
-<li>"You say 'Creating Intelligence' -- we can make that literal. We add AI vision to existing sensor data."</li>
-<p><strong>Red flags:</strong> Netherlands HQ = decisions may not be made at the booth.</p>
-<hr>
-<h3>2. Big Joe Forklifts - Booth B9313</h3>
-<p><strong>What:</strong> Electric forklift manufacturer (walkie stackers, pallet jacks, AMRs)</p>
-<p><strong>Size:</strong> ~100 employees | $20-57M revenue | PE-backed (Granite Creek Capital)</p>
-<p><strong>Why:</strong> JUST launched "Big Joe Pulse" (basic telematics dashboard) THIS WEEK at MODEX. Collects motor, battery, and charging data but zero AI. Outsources all AI to Thoro.ai for their AMR. PE backing means budget exists. Must compete against Toyota/Crown who have AI features.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Pulse is dashboards, not predictive - needs ML for maintenance prediction</li>
-<li>No vision-based safety (table stakes at Toyota/Crown)</li>
-<li>Energy optimization AI for electrification sales pitch</li>
-<p><strong>Openers:</strong></p>
-<li>"Pulse looks like a strong foundation -- have you thought about what predictive analytics could do for your dealers' service revenue?"</li>
-<li>"Your electrification story is compelling. We help hardware companies turn operational data into AI features that close deals against Toyota and Crown."</li>
-<p><strong>Red flags:</strong> None significant. Sweet spot company.</p>
-<hr>
-<h3>3. CLARK Material Handling Company</h3>
-<p><strong>What:</strong> One of the oldest forklift brands (founded 1917). IC and electric forklifts.</p>
-<p><strong>Size:</strong> ~5% NA market share | Owned by Young An Group (South Korea)</p>
-<p><strong>Why:</strong> Massive technology deficit vs. every major competitor. Toyota has T-Matics + autonomous forklifts, Crown has InfoLink + QuickPick, Hyster-Yale has vision + Balyo robotics. CLARK has NOTHING - no telematics, no AI, no vision, no autonomy. Their simpler CAN-bus controls architecture actually makes retrofit AI integration easier.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Retrofit predictive maintenance module (CAN-bus data tap for hydraulic/drivetrain/battery failures)</li>
-<li>Computer vision safety layer (pedestrian detection, zone speed enforcement, near-miss analytics)</li>
-<li>Fleet telematics + operator scoring platform (replacing their absent first-party telematics)</li>
-<p><strong>Openers:</strong></p>
-<li>"Your competitors are bundling telematics and safety AI into premium pricing. We can give CLARK the same capabilities as a modular add-on, protecting your value positioning."</li>
-<li>"CLARK has the brand legacy and the dealer network -- the gap is a connected-product story. We close that gap without a ground-up redesign."</li>
-<p><strong>Red flags:</strong> Korean ownership may require executive buy-in. But US team at MODEX feels competitive pressure acutely.</p>
-<hr>
-<h3>4. Lucas Systems</h3>
-<p><strong>What:</strong> Voice-directed warehouse platform "Jennifer" (112 billion+ picks, 30+ languages)</p>
-<p><strong>Size:</strong> ~96 employees | Private, self-funded | Wexford PA</p>
-<p><strong>Why:</strong> Their speech recognition uses DNNs (modern) but is pre-LLM/pre-generative AI. Jennifer runs rigid command-response dialogues (worker says a number, system confirms) - NOT natural language. They sit on one of the richest warehouse behavior datasets in the industry (112B picks) and do nothing predictive with it. Private company = fast decisions.</p>
-<p><strong>AI gaps:</strong></p>
-<li>LLM-powered natural language interaction (replace rigid grammars with conversational voice)</li>
-<li>Predictive error detection from their massive pick dataset</li>
-<li>Generative AI for adaptive worker onboarding/training</li>
-<p><strong>Openers:</strong></p>
-<li>"Jennifer's dual-engine speech recognition is impressive -- have you explored what an LLM layer could do for natural-language warehouse dialogue?"</li>
-<li>"With 112 billion picks of data, you're sitting on one of the richest warehouse behavior datasets in the industry. Are you using that for predictive modeling yet?"</li>
-<p><strong>Red flags:</strong> None major. Private, mid-sized, needs partners to compete with Honeywell/Zebra on AI.</p>
-<hr>
-<h3>5. Yard Management Solutions - Booth C15164</h3>
-<p><strong>What:</strong> Yard management software (gate management, dock scheduling, digital twin)</p>
-<p><strong>Size:</strong> ~28 employees | Bootstrapped | Oxford MI</p>
-<p><strong>Why:</strong> You already spoke to them! Follow-up ammo: Their "Eagle Vision OCR" gate cameras are basic OCR, NOT deep-learning CV. <strong>Kaleris just announced AI-powered gate automation at this same show.</strong> Colin Mansfield (VP) won 2026 "Pros to Know" award - tech-forward leader.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Deep-learning CV at gate (DOT numbers, SCAC codes, hazmat placards, chassis sag weight estimation)</li>
-<li>Real-time CV overlay for yard digital twin (cameras replacing RFID tags)</li>
-<li>ML prediction layer for YardIQ (predict detention before it happens)</li>
-<p><strong>Openers:</strong></p>
-<li>"Did you see what Kaleris just announced down the hall? We can help you get there faster."</li>
-<li>"Eagle Vision OCR is solid, but what if the same camera could estimate load weight from chassis deflection?"</li>
-<p><strong>Red flags:</strong> Bootstrapped family business = tight budgets. May want revenue-share, not hourly consulting.</p>
-<hr>
-<h3>6. FreightSnap</h3>
-<p><strong>What:</strong> Automated freight dimensioning systems (IR sensors, cameras, scales)</p>
-<p><strong>Size:</strong> ~22 employees | Lenexa KS | Backed by Venture 53</p>
-<p><strong>Why:</strong> Captures photos of every shipment but uses traditional IR geometry, not AI. Competitor BeeVision already markets "AI-powered dimensioning with 3D imaging and ML." At risk of falling behind.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Damage detection from existing camera feeds</li>
-<li>Freight classification from visual inspection</li>
-<li>OCR from scan images (labels, PRO numbers, TMS matching)</li>
-<p><strong>Openers:</strong></p>
-<li>"I saw BeeVision is marketing AI-powered dimensioning. How are you thinking about adding intelligence on top of your IR sensor data?"</li>
-<li>"You're already capturing photos of every shipment -- has anyone asked about using those for damage detection?"</li>
-<p><strong>Red flags:</strong> Small company, limited budget. May need funding round first.</p>
-<hr>
-<h3>7. Cubiscan</h3>
-<p><strong>What:</strong> Pioneer/market leader in parcel dimensioning (est. 1987, Schneider Electric-owned)</p>
-<p><strong>Size:</strong> ~70 employees | Farmington UT</p>
-<p><strong>Why:</strong> 30+ year leader with aging tech (ultrasound, infrared lasers). BeeVision ACTIVELY positioning against them: "transition from Cubiscan to BeeVision." Competitive threat is urgent.</p>
-<p><strong>AI gaps:</strong></p>
-<li>AI irregular shape measurement, auto product ID + OCR, predictive analytics on measurement data</li>
-<p><strong>Openers:</strong></p>
-<li>"BeeVision is actively marketing as a Cubiscan replacement. We help hardware leaders add AI layers to stay ahead."</li>
-<li>"Your infrared laser tech is best-in-class. We add a camera-based AI module on top -- without replacing your hardware."</li>
-<p><strong>Red flags:</strong> Schneider Electric ownership = corporate decisions. Contact: Aaron Taylor, 801-451-7000.</p>
-<hr>
-<h3>8. PowerFleet (NASDAQ: AIOT) - Booth A1514</h3>
-<p><strong>What:</strong> Fleet management & IoT platform (Unity). Merged with MiX Telematics + Fleet Complete.</p>
-<p><strong>Size:</strong> ~$440M revenue | Public | ~$373M market cap</p>
-<p><strong>Why:</strong> Their stock ticker is literally "AIOT" - creates investor pressure to demonstrate real AI. Unity ingests data from 600+ sources but it's mostly dashboards and rule-based alerts. Deep predictive models are gaps.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Predictive asset failure models for forklifts/material handling</li>
-<li>AI-optimized warehouse traffic flow and labor allocation</li>
-<li>Unsupervised anomaly detection across 600+ data sources</li>
-<p><strong>Openers:</strong></p>
-<li>"Your Unity platform ingests 600+ data sources -- what percentage of that data actually drives automated decisions versus sitting in dashboards?"</li>
-<li>"We saw you cut forklift damage costs 85% with analytics. What would it take to make that predictive instead of reactive?"</li>
-<p><strong>Red flags:</strong> Public company = procurement process. But stock ticker pressure works in your favor.</p>
-<hr>
-<h3>9. Voodoo Robotics</h3>
-<p><strong>What:</strong> Wireless pick-to-light shelf displays (e-ink + LED, cloud-connected, REST API)</p>
-<p><strong>Size:</strong> ~8 employees | Bootstrapped | Plano TX</p>
-<p><strong>Why:</strong> Workers press a button to "confirm" picks but NO actual verification. Zero AI, open API. Tiny team can't build AI in-house.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Vision-based pick verification, shelf anomaly detection, workforce analytics via CV</li>
-<p><strong>Openers:</strong></p>
-<li>"Pick-to-light tells people WHERE to go. AI vision could verify WHAT they picked. Has that come up?"</li>
-<li>"Your API is impressively open -- have you thought about what happens when a picker presses the button but grabs the wrong item?"</li>
-<p><strong>Red flags:</strong> 8 people, bootstrapped = very tight budget. Needs small/phased or equity-based engagement.</p>
-<hr>
-<h3>10. SmartBOL - Booth A4524</h3>
-<p><strong>What:</strong> Bill of Lading automation (eBOL creation, e-signatures, dock management)</p>
-<p><strong>Size:</strong> ~6-50 employees | ~$4M revenue | By ADi Data International, Piscataway NJ</p>
-<p><strong>Why:</strong> Core engine is rules-based (template-driven). Their "AI-based inbound document processing" is likely basic OCR/templates. BOL formats vary wildly across carriers - handwriting, stamps, varying layouts. AI OCR/vision LLMs could handle this without per-template configuration.</p>
-<p><strong>AI gaps:</strong></p>
-<li>Intelligent inbound BOL data extraction (vision LLMs for inconsistent formats)</li>
-<li>Anomaly detection & auto-audit (flag BOL/PO/invoice discrepancies)</li>
-<li>Predictive dock/driver workflow optimization</li>
-<p><strong>Openers:</strong></p>
-<li>"Your inbound document processing module caught my eye -- how are you handling format variation across different carriers' BOLs?"</li>
-<li>"With your SOX compliance repository, have customers asked about automated discrepancy flagging?"</li>
-<p><strong>Red flags:</strong> Very small company = limited budget.</p>
-<hr>
-<h2>TIER 2 - STRONG OPPORTUNITIES (Visit tomorrow)</h2>
-<p>Clear AI gaps, larger companies. May be slower to engage but bigger potential deals.</p>
-<hr>
-<h3>11. Lantech</h3>
-<p><strong>What:</strong> Invented stretch wrapping. $243M revenue, ~600 employees, Louisville KY.</p>
-<p><strong>IoT platform:</strong> LINC - pipes PLC data to cloud. Marketed as "predictive" but it's just dashboards.</p>
-<p><strong>AI gaps:</strong> ML predictive maintenance on LINC telemetry, AI-optimized wrap profiles (load geometry), CV post-wrap quality inspection</p>
-<p><strong>Opener:</strong> "LINC is collecting great machine data -- have you started building ML models on top of that telemetry?"</p>
-<h3>12. Robopac USA</h3>
-<p><strong>What:</strong> Stretch wrapping & packaging machines (Italian parent Aetna Group, 500M+ EUR, 2,000 employees)</p>
-<p><strong>IoT platform:</strong> R-Connect - cloud monitoring, same "connected but not intelligent" tier as Lantech.</p>
-<p><strong>AI gaps:</strong> Predictive maintenance on R-Connect data, adaptive film optimization via CV, autonomous wrap-recipe selection</p>
-<p><strong>Opener:</strong> "R-Connect gives you the data pipeline -- what if it could tell you which machine will fail next Tuesday?"</p>
-<p><strong>Note:</strong> Whoever gets to Lantech OR Robopac first with AI wins competitive edge. They're direct rivals at the same tech stage.</p>
-<h3>13. Hytrol</h3>
-<p><strong>What:</strong> Major conveyor manufacturer. ~1,600 employees, $390M revenue, Jonesboro AR.</p>
-<p><strong>Software:</strong> EZLogic zone controller - real-time monitoring, zero AI, no cloud, no predictive analytics.</p>
-<p><strong>AI gaps:</strong> Predictive maintenance from motor/vibration data, AI-optimized sortation logic, fleet-level cloud analytics (SaaS revenue opportunity)</p>
-<p><strong>Opener:</strong> "EZLogic gives you great real-time visibility -- have you explored using that data for predictive failure detection?"</p>
-<p><strong>Red flags:</strong> Large, may build in-house. Lead with ROI (warranty costs, new SaaS revenue).</p>
-<h3>14. Combilift</h3>
-<p><strong>What:</strong> World's largest multi-directional forklift maker. ~800-1K employees, $200-250M, Irish HQ.</p>
-<p><strong>Tech:</strong> Combi-AGT uses basic SLAM navigation. Combi Connect telematics = rule-based thresholds. Hyster-Yale launched AI navigation Jan 2026.</p>
-<p><strong>AI gaps:</strong> AI navigation for AGT, CV for long/irregular load classification, real ML in Combi Connect</p>
-<p><strong>Opener:</strong> "With Hyster-Yale pushing AI navigation this year, how is Combilift thinking about the AI layer for AGT?"</p>
-<h3>15. Modula - Booth B15713</h3>
-<p><strong>What:</strong> Vertical lift modules (VLMs). Italian parent (~1,500 employees, $182M revenue).</p>
-<p><strong>Tech:</strong> Just launched "Modula AI Services" but it's algorithmic optimization, not ML. Kardex partnered with Berkshire Grey for robotic AI = competitive threat.</p>
-<p><strong>AI gaps:</strong> ML dynamic slotting, deep-learning predictive maintenance, CV for tray-level inventory verification</p>
-<p><strong>Opener:</strong> "Kardex just went deep with Berkshire Grey on robotic AI. How is Modula thinking about closing that intelligence gap?"</p>
-<h3>16. suitX by Ottobock</h3>
-<p><strong>What:</strong> Industrial exoskeletons. IX BACK VOLTON = world's lightest powered back exoskeleton.</p>
-<p><strong>Parent:</strong> Ottobock (~9B EUR revenue). 2,000+ enterprise customers. Competitor: German Bionic's Exia with "augmented AI."</p>
-<p><strong>Tech:</strong> Basic on-device motion-pattern detection + Volton XP Companion app. No predictive injury models, no fleet-wide intelligence.</p>
-<p><strong>AI gaps:</strong> Predictive injury risk engine (aggregate data across all units), fleet-wide ergonomic analytics dashboard, adaptive task-specific tuning</p>
-<p><strong>Opener:</strong> "German Bionic is marketing 'augmented AI' as their differentiator. How are you thinking about staying ahead on the intelligence layer?"</p>
-<h3>17. SATO America</h3>
-<p><strong>What:</strong> Barcode printers, labels, RFID. Japanese parent SATO Holdings (~$1B revenue, 5,000 employees).</p>
-<p><strong>IoT platform:</strong> SOS (SATO Online Services) - cloud printer fleet monitoring. Rule-based triggers, not predictive.</p>
-<p><strong>AI gaps:</strong> Predictive maintenance for printer fleets, intelligent print quality inspection, smart consumable forecasting</p>
-<p><strong>Opener:</strong> "SOS gives you fleet visibility -- what if it could tell you <em>what's about to happen</em>, not just what already did?"</p>
-<h3>18. Numina Group - Booth B14545</h3>
-<p><strong>What:</strong> Warehouse automation integrator. Proprietary RDS (Real-time Distribution System) WES/WCS. ~51-200 employees, Chicago area.</p>
-<p><strong>Tech:</strong> Mostly rule-based. Two narrow ML touchpoints (voice recognition DNNs, AMR routing algorithm). No predictive analytics, no dynamic slotting.</p>
-<p><strong>AI gaps:</strong> Predictive order-wave optimization, ML dynamic slotting, CV quality inspection at pack-ship</p>
-<p><strong>Opener:</strong> "Your RDS order orchestration is impressive at execution -- have you explored letting a predictive layer decide WHEN to release waves?"</p>
-<hr>
-<h2>TIER 3 - WORTH A VISIT (If time permits)</h2>
-<p>Good opportunities with caveats.</p>
-<hr>
-<h3>19. Softeon (IFS Softeon) - Booth C14564</h3>
-<p><strong>What:</strong> WMS/WES platform. ~500 employees, ~$750M revenue. Just acquired by IFS (March 2026).</p>
-<p><strong>Tech:</strong> Launched SAIL (Softeon AI Layer) but it's early-stage on rule-based core.</p>
-<p><strong>Opener:</strong> "How is SAIL evolving post-IFS acquisition? We help companies accelerate the AI layer without rebuilding the core engine."</p>
-<p><strong>Caveat:</strong> Large company + fresh acquisition = shifting priorities.</p>
-<h3>20. ProGlove - Booth A1831</h3>
-<p><strong>What:</strong> Smart wearable barcode scanners. ~190 employees, $49M funding. MHI Innovation Award nominee at MODEX.</p>
-<p><strong>Tech:</strong> Early AI (ActivityAI, MAI voice assistant) but nothing predictive. Rich untapped scan data.</p>
-<p><strong>Opener:</strong> "Your ActivityAI tells teams what happened. We build the layer that tells them what's about to happen."</p>
-<p><strong>Caveat:</strong> Munich-based, early AI attempts exist.</p>
-<h3>21. WIPOTEC-OCS</h3>
-<p><strong>What:</strong> High-precision weighing, X-ray inspection. ~1,200 employees, EUR 160M, German.</p>
-<p><strong>Data:</strong> 16-bit, 60,000+ gray-value X-ray imaging. "Intelligent algorithms" appear rule-based.</p>
-<p><strong>Opener:</strong> "Your 16-bit X-ray imaging captures incredible detail -- have you explored deep learning for borderline contaminants?"</p>
-<p><strong>Caveat:</strong> German, founder-managed, may prefer European partners.</p>
-<h3>22. Packsize International</h3>
-<p><strong>What:</strong> On-demand right-sized packaging. ~880 employees, $230-250M, PE-backed.</p>
-<p><strong>Tech:</strong> PackNet is algorithmic/rule-based, not ML. Just moved to cloud.</p>
-<p><strong>Opener:</strong> "Amazon built their own AI right-sizing model. We help Packsize-class companies match that capability."</p>
-<p><strong>Caveat:</strong> Tech-savvy, well-resourced, may build internally.</p>
-<h3>23. Easy Metrics</h3>
-<p><strong>What:</strong> Warehouse labor analytics. ~47-119 employees, $36.7M raised. 600+ facilities.</p>
-<p><strong>Tech:</strong> Just launched "AI Agents" but narrow (one descriptive analysis agent).</p>
-<p><strong>Opener:</strong> "What's next on the AI agent roadmap? We help accelerate from descriptive to prescriptive."</p>
-<p><strong>Caveat:</strong> Already starting AI journey, PE-backed.</p>
-<h3>24. Rite-Hite</h3>
-<p><strong>What:</strong> Dock equipment. ~2,500 employees, ~$600M revenue, family-owned.</p>
-<p><strong>Tech:</strong> Rite-Hite ONE cloud platform + Dok-Commander Pro sensors + "AI-ready" cameras. Data-collection phase, no ML.</p>
-<p><strong>Opener:</strong> "I noticed your cameras are described as 'AI-ready.' What's the roadmap for turning that video into real-time safety interventions?"</p>
-<p><strong>Caveat:</strong> Large company, may build internally.</p>
-<h3>25. ELOKON</h3>
-<p><strong>What:</strong> Forklift safety. ~130 employees. Recently launched ELOshieldAI (camera + UWB).</p>
-<p><strong>Tech:</strong> Has narrow AI (pedestrian detection only). Fleet analytics are basic dashboards.</p>
-<p><strong>Opener:</strong> "Are you finding ELOshieldAI vision models generalize well across different warehouse lighting?"</p>
-<p><strong>Caveat:</strong> May view themselves as "already doing AI."</p>
-<h3>26. Newcastle Systems (TouchPoint parent)</h3>
-<p><strong>What:</strong> Mobile-powered workstation carts. ~45 employees, $6.3M revenue.</p>
-<p><strong>Acquired by:</strong> TouchPoint Inc. (also owns SupplyPoint, Morse Watchmans).</p>
-<p><strong>Opener:</strong> "Congrats on the TouchPoint acquisition -- are you connecting cart data with SupplyPoint's inventory intelligence?"</p>
-<p><strong>Real play:</strong> Pitch AI analytics unifying all three TouchPoint brands. Talk to parent company.</p>
-<hr>
-<h2>SPECIAL OPPORTUNITIES</h2>
-<h3>Siggins (PARTNER, not client)</h3>
-<p><strong>What:</strong> Small (14 people, $5.2M) systems integrator for mid-market warehouse automation.</p>
-<p><strong>Why:</strong> Channel partner opportunity. They have customer relationships but ZERO software. White-label your AI into their offerings.</p>
-<p><strong>Opener:</strong> "When you deploy WES solutions, are clients asking for AI-driven optimization? We could embed that into your offering."</p>
-<h3>TotalTrax (OUT OF BUSINESS - orphaned customers)</h3>
-<p>TotalTrax (forklift telematics) is dead. Website redirects to eGenera. <strong>SIERA.AI is actively recruiting their orphaned customers.</strong> Opportunity: warehouse operators with telematics hardware generating data and NO vendor. If you encounter former TotalTrax users at the show, they need a new analytics partner.</p>
-<hr>
-<h2>COMPANIES TO SKIP</h2>
-<p><strong>Already AI-native (competitors, not clients):</strong></p>
-<p>VIMAAN ($53M raised, Amazon-backed CV company), Siena Analytics/Peak Technologies (PE roll-up with AI core), Locus Robotics, Brain Corp, Cognex, GreyOrange, Boston Dynamics, Berkshire Grey, Covariant, Ambi Robotics, ForwardX, Geekplus, HAI Robotics, Plus One Robotics, RightHand Robotics, Vecna Robotics, Seegrid, OTTO Motors</p>
-<p><strong>Too large / in-house AI teams:</strong></p>
-<p>Oracle, Honeywell, Blue Yonder, Zebra Technologies, Manhattan Associates, Siemens, FANUC, Dematic, ABB, Rockwell/Emulate3D</p>
-<p><strong>Cargo Spectre:</strong> MEDIUM - already has ML in-house (NVIDIA Jetson edge compute, Orbbec sensors). Opportunity is adjacent features only.</p>
-<p><strong>Pure hardware commodities:</strong> Caster companies, rack companies, pallet companies, barrier companies</p>
-<p><strong>Already rejected:</strong> Twin Oaks Technology (adamant Alexa is enough)</p>
-<hr>
-<h2>QUICK REFERENCE - PRIORITY WALK LIST</h2>
+
+<h2>Quick Table</h2>
 <table>
-<tr><th>#</th><th>Company</th><th>Booth</th><th>Size</th><th>Revenue</th><th>AI Today</th><th>Your Angle</th></tr>
-<tr><td>1</td><td>RAVAS USA</td><td>Find</td><td>200</td><td>$10-50M</td><td>None</td><td>Vision + weight data fusion</td></tr>
-<tr><td>2</td><td>Big Joe Forklifts</td><td>B9313</td><td>100</td><td>$20-57M</td><td>None (Pulse = dashboards)</td><td>Make Pulse predictive</td></tr>
-<tr><td>3</td><td>CLARK Material Handling</td><td>Find</td><td>Mid</td><td>Mid</td><td>None at all</td><td>Retrofit telematics + safety AI</td></tr>
-<tr><td>4</td><td>Lucas Systems</td><td>Find</td><td>96</td><td>Private</td><td>DNN speech, no LLM</td><td>LLM layer on 112B picks dataset</td></tr>
-<tr><td>5</td><td>Yard Mgmt Solutions</td><td>C15164</td><td>28</td><td>Small</td><td>Basic OCR</td><td>CV gate upgrade, Kaleris threat</td></tr>
-<tr><td>6</td><td>FreightSnap</td><td>Find</td><td>22</td><td>Small</td><td>None</td><td>Damage detection from photos</td></tr>
-<tr><td>7</td><td>Cubiscan</td><td>Find</td><td>70</td><td>Schneider</td><td>None</td><td>Counter BeeVision threat</td></tr>
-<tr><td>8</td><td>PowerFleet (AIOT)</td><td>A1514</td><td>Public</td><td>$440M</td><td>Dashboards only</td><td>Make AIOT ticker real</td></tr>
-<tr><td>9</td><td>Voodoo Robotics</td><td>Find</td><td>8</td><td>Tiny</td><td>None</td><td>Pick verification vision</td></tr>
-<tr><td>10</td><td>SmartBOL</td><td>A4524</td><td><50</td><td>$4M</td><td>Basic OCR</td><td>AI document processing</td></tr>
-<tr><td>11</td><td>Lantech</td><td>Find</td><td>600</td><td>$243M</td><td>IoT dashboards (LINC)</td><td>ML on LINC data</td></tr>
-<tr><td>12</td><td>Robopac USA</td><td>Find</td><td>2000+ parent</td><td>500M+ EUR parent</td><td>IoT dashboards (R-Connect)</td><td>ML on R-Connect data</td></tr>
-<tr><td>13</td><td>Hytrol</td><td>Find</td><td>1,600</td><td>$390M</td><td>None</td><td>Predictive maintenance SaaS</td></tr>
-<tr><td>14</td><td>Combilift</td><td>Find</td><td>800-1K</td><td>$200-250M</td><td>SLAM only</td><td>AI navigation for AGT</td></tr>
-<tr><td>15</td><td>Modula</td><td>B15713</td><td>1,500</td><td>$182M</td><td>Algorithmic only</td><td>Counter Kardex+Berkshire Grey</td></tr>
-<tr><td>16</td><td>suitX/Ottobock</td><td>Find</td><td>Ottobock 9B EUR</td><td>Large parent</td><td>Basic motion detection</td><td>Fleet ergonomic analytics</td></tr>
-<tr><td>17</td><td>SATO America</td><td>Find</td><td>5,000 parent</td><td>$1B parent</td><td>IoT dashboards (SOS)</td><td>Predictive printer maintenance</td></tr>
-<tr><td>18</td><td>Numina Group</td><td>B14545</td><td>51-200</td><td>Mid</td><td>Narrow ML only</td><td>Predictive wave optimization</td></tr>
-<tr><td>19</td><td>Softeon/IFS</td><td>C14564</td><td>500</td><td>$750M</td><td>SAIL (early)</td><td>Accelerate SAIL roadmap</td></tr>
-<tr><td>20</td><td>ProGlove</td><td>A1831</td><td>190</td><td>$49M raised</td><td>Early AI attempts</td><td>Predictive from scan data</td></tr>
-<tr><td>P</td><td>Siggins</td><td>Find</td><td>14</td><td>$5.2M</td><td>None</td><td>White-label AI partner</td></tr>
+<tr><th>#</th><th>Company</th><th>Booth</th><th>Their Software</th><th>Your Pitch</th></tr>
+<tr><td>1</td><td><strong>RAVAS</strong></td><td>Find</td><td>Integration SW</td><td>Vision + weight fusion</td></tr>
+<tr><td>2</td><td><strong>Big Joe</strong></td><td>B9313</td><td>Pulse</td><td>Make Pulse predictive</td></tr>
+<tr><td>3</td><td><strong>Lantech</strong></td><td>Find</td><td>LINC IoT</td><td>ML on LINC data</td></tr>
+<tr><td>4</td><td><strong>Robopac</strong></td><td>Find</td><td>R-Connect</td><td>ML on R-Connect</td></tr>
+<tr><td>5</td><td><strong>Combilift</strong></td><td>Find</td><td>Combi Connect</td><td>AI nav + ML maintenance</td></tr>
+<tr><td>6</td><td><strong>FreightSnap</strong></td><td>Find</td><td>DMS cloud</td><td>AI from existing photos</td></tr>
+<tr><td>7</td><td><strong>Cubiscan</strong></td><td>Find</td><td>PC measurement</td><td>Counter BeeVision</td></tr>
+<tr><td>8</td><td><strong>Hytrol</strong></td><td>Find</td><td>EZLogic</td><td>Predictive maintenance SaaS</td></tr>
+<tr><td>9</td><td><strong>Modula</strong></td><td>B15713</td><td>AI Services</td><td>Real ML, counter Kardex</td></tr>
+<tr><td>10</td><td><strong>suitX</strong></td><td>Find</td><td>Volton XP app</td><td>Fleet ergonomic analytics</td></tr>
+<tr><td>11</td><td><strong>SATO</strong></td><td>Find</td><td>SOS platform</td><td>Predictive printer maint</td></tr>
+<tr><td>12</td><td><strong>PowerFleet</strong></td><td>A1514</td><td>Unity</td><td>Make AIOT real</td></tr>
+<tr><td>13</td><td><strong>ProGlove</strong></td><td>A1831</td><td>ActivityAI</td><td>Predictive from scans</td></tr>
+<tr><td>14</td><td><strong>Rite-Hite</strong></td><td>Find</td><td>ONE + cameras</td><td>Activate AI-ready cameras</td></tr>
+<tr><td>15</td><td><strong>YMS</strong></td><td>C15164</td><td>Eagle Vision OCR</td><td>Deep-learning CV at gate</td></tr>
 </table>
-<hr>
-<h2>KEY PATTERNS TO LEVERAGE IN CONVERSATIONS</h2>
-<p>1. <strong>"Your competitors just announced X at this show"</strong> - Kaleris vs YMS, BeeVision vs Cubiscan/FreightSnap, Kardex+Berkshire Grey vs Modula, Hyster-Yale vs Combilift, German Bionic vs suitX</p>
-<p>2. <strong>"You already have the data pipeline, we add the intelligence"</strong> - RAVAS, Lantech (LINC), Robopac (R-Connect), Rite-Hite (ONE), Big Joe (Pulse), SATO (SOS), PowerFleet (Unity)</p>
-<p>3. <strong>"Your dashboards call themselves predictive but they're not"</strong> - Lantech, Combilift, Rite-Hite, Big Joe, Hytrol</p>
-<p>4. <strong>"We help you compete against companies 10x your size"</strong> - Big Joe vs Toyota/Crown, CLARK vs Toyota/Crown, FreightSnap vs BeeVision, Cubiscan vs BeeVision</p></body></html>
+
+<p style="color:#555;font-size:12px">Generated April 14, 2026. Gaps verified via company websites.</p>
+</body></html>
